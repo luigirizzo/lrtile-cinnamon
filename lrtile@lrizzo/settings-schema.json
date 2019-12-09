@@ -1,0 +1,32 @@
+{
+    "_comment" : {
+	"description" : "lrtile configuration parameters",
+	"type" : "header",
+ 	"comment" : "spinbutton units became unnecessary in 3.8.0"
+    },
+     "cols" : {
+	 "description" : "Grid Columns",
+	 "type" : "spinbutton",
+	 "default" : 8, "min" : 4, "max" : 20, "step" : 1, "units" : ""
+     },
+     "rows" : {
+	 "description" : "Grid Rows",
+	 "type" : "spinbutton",
+	 "default" : 8, "min" : 4, "max" : 20, "step" : 1, "units" : ""
+     },
+     "border" : {
+	 "description" : "Window Border (pixels)",
+	 "type" : "spinbutton",
+	 "default" : 2, "min" : 0, "max" : 20, "step" : 1, "units" : ""
+     },
+     "move" : {
+	 "description" : "Move prefix",
+	 "type" : "keybinding",
+	 "default" : "<Alt>"
+     },
+     "size" : {
+	 "description" : "Resize prefix",
+	 "type" : "keybinding",
+	 "default" : "<Shift>"
+     }
+}
