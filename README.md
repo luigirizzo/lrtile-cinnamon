@@ -1,5 +1,5 @@
 # lrTile
-Cinnamon extension to move/resize windows with Alt/Shift + Arrows
+Cinnamon extension to move/resize windows on a grid with Alt/Shift + Arrows
 by Luigi Rizzo
 
 Alt+Arrows move the current window, Shft+Arrows resize it
