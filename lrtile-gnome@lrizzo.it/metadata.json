@@ -1,0 +1,6 @@
+{
+  "name": "lrTile-gnome",
+  "description": "Move/resize windows with shift-alt and arrows",
+  "uuid": "lrtile-gnome@lrizzo.it",
+  "shell-version": [ "45" ]
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+
+  <schema id="org.gnome.shell.extensions.lrtile"
+    path="/org/gnome/shell/extensions/lrtile/">
+
+    <key type="as" name="lr-narrow"> <default><![CDATA[['<Shift>Left']]]></default></key>
+    <key type="as" name="lr-wide">   <default><![CDATA[['<Shift>Right']]]></default></key>
+    <key type="as" name="lr-short">  <default><![CDATA[['<Shift>Up']]]></default></key>
+    <key type="as" name="lr-tall">   <default><![CDATA[['<Shift>Down']]]></default></key>
+
+    <key type="as" name="lr-left">   <default><![CDATA[['<Alt>Left']]]></default></key>
+    <key type="as" name="lr-right">  <default><![CDATA[['<Alt>Right']]]></default></key>
+    <key type="as" name="lr-up">     <default><![CDATA[['<Alt>Up']]]></default></key>
+    <key type="as" name="lr-down">   <default><![CDATA[['<Alt>Down']]]></default></key>
+    <key type="as" name="lr-full">   <default><![CDATA[['<Alt>F']]]></default></key>
+  </schema>
+</schemalist>
